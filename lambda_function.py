@@ -2,7 +2,7 @@ import json
 
 def lambda_handler(event, context):
 
-    print("S3 Event Received:")
+    print("CI/CD Deployment Successful")
     print(json.dumps(event, indent=2))
 
     return {
