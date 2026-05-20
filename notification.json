@@ -1,0 +1,10 @@
+{
+  "LambdaFunctionConfigurations": [
+    {
+      "LambdaFunctionArn": "arn:aws:lambda:ap-south-1:949670774201:function:s3-upload-trigger",
+      "Events": [
+        "s3:ObjectCreated:*"
+      ]
+    }
+  ]
+}
